@@ -25,5 +25,5 @@ Please adhere to this project's `code of conduct`.
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://via.placeholder.com/468x300?https://github.com/Horux1/1er-Challenge-Alura/blob/main/img/Annotation%202024-03-21%20192755.png)
 
