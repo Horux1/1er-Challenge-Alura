@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oracle Challengue</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Leckerli+One&family=Montserrat:wght@300;400;500;600;700;800;900&family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header nav bar -->
+    <header>
+        <a class="logo" href="#">
+            <img src="img/oracle-2.svg" alt="logo">
+        </a>
+
+        <ul class="navbar">
+            <li><a href="#" id="home"></a></li>
+            <li><a href="#Read" id="about"></a></li>
+            <li><a href="#Encrypt" id="encrypt">Encrypt</a></li>
+            <li><a href="#Contact" id="contact">Contact</a></li>
+        </ul>
+
+
+        <div class="h-icons">
+            <a href="https://www.aluracursos.com/" target="_blank"><i class='bx bx-book-bookmark'></i></a>
+            <a href="https://github.com/Horux1" target="_blank"><i class='bx bxl-github'></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!--home section -->
+
+    <section class="home">
+        <div class="home-text">
+            <h1>Encrypt <br> Your ideas</h1>
+            <a href="#Read" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- banner section -->
+
+    <section id="Read" class="principal">
+        <p>Es muy importante proteger la información privada y sensible, especialmente en un mundo donde la seguridad
+            cibernética es cada vez más relevante. La encriptación es una herramienta poderosa para mantener nuestros
+            datos seguros. Al encriptar nuestros textos, los hacemos inaccesibles para aquellos que no tienen la clave
+            de descifrado. Esto puede ser especialmente crucial en ámbitos como la comunicación en línea, la
+            transferencia de archivos sensibles y la protección de datos personales. Con la encriptación, podemos
+            asegurarnos de que nuestras comunicaciones y datos confidenciales no sean interceptados ni comprometidos.
+        </p>
+
+
+    </section>
+
+    <!-- ENCRYPT section -->
+
+    <section class="Encrypt" id="Encrypt">
+        <div class="center-text">
+            <h2>Encrypt</h2>
+        </div>
+        <div class="principal-panel">
+            <div class="box">
+                <label for="inputText">Texto</label>
+                <textarea id="inputText" rows="4" cols="50"></textarea>
+            </div>
+
+            <div class="box">
+                <label for="outputText">Resultado</label>
+                <textarea id="outputText" rows="4" cols="50"></textarea>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <label for="key">Clave</label>
+            <input type="number" id="key" min="1" max="25" value="3">
+
+            <div class="btng">
+                <button class="btn2" onclick="encryptText()">Encriptar</button>
+                <button class="btn2" onclick="copyText()">Copiar Texto</button>
+                <button class="btn2" onclick="decryptText()">Desencriptar</button>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section-->
+    <section class="contact" id="Contact">
+        <div class="contact-box">
+            <h4>MY ACCOUNT</h4>
+            <li><a href="https://github.com/Horux1" target="_blank">My account</a></li>
+            <li><a href="https://github.com/Horux1" target="_blank">Contact Us</a></li>
+        </div>
+
+
+        <div class="contact-box">
+            <h4>INFORMATION</h4>
+            <li><a href="#">Privacy Page</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Term & Conditions</a></li>
+        </div>
+
+
+        <div class="contact-box">
+            <h4>Challengue #1</h4>
+            <h5>Connect with us</h5>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class='bx bxl-twitter'></i></a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Scroll-->
+    <a href="#" class="scroll-top"><i class='bx bx-chevrons-up'></i></a>
+
+    <div class="end-text">
+        <p> © Late 2024 Sebcoh. All Rights Reserved.</p>
+
+    </div>
+
+    <script>console.log("Hello, World");</script>
+</body>
+
+<script src="code.js"></script>
+
+</html>
